@@ -1,0 +1,20 @@
+{
+  "name": "projeto-inteegrador",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aulas-dev/projeto-inteegrador.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aulas-dev/projeto-inteegrador/issues"
+  },
+  "homepage": "https://github.com/aulas-dev/projeto-inteegrador#readme",
+  "description": ""
+}
