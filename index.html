@@ -220,8 +220,489 @@
         </div>
       </div>
 
-      <section>BOTÕES FILTRO</section>
-      <section>PRODUTOS A EXIBIR</section>
+      <section class="py-12">
+        <div class="container mx-auto px-4">
+          <h2 class="text-2xl font-bold mb-8">Categorias Populares</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            <div class="food-card hover:scale-105 transition-transform duration-300 cursor-pointer">  
+              <div class="bg-white rounded-lg shadow-md min-h-40 w-27 p-6 flex flex-col items-center text-center">
+                <div class="w-16 h-16 rounded-full bg-orange-500/10 text-orange-500 flex items-center justify-center mb-4">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-pizza w-8 h-8">
+
+                      <path d="m12 14-1 1"></path>
+                      <path d="m13.75 18.25-1.25 1.42"></path>
+                      <path d="M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12"></path>
+                      <path d="M18.8 9.3a1 1 0 0 0 2.1 7.7"></path>
+                      <path d="M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z"></path>
+                  </svg>
+                </div>
+                <h3 class="font-medium">Pizzas</h3>
+              </div>
+            </div>
+
+              <div class="food-card hover:scale-105 transition-transform duration-300 cursor-pointer">
+                  <div class="bg-white rounded-lg shadow-md min-h-40 w-27 p-6 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 rounded-full bg-red-500/10 text-red-500 flex items-center justify-center mb-4">
+                      <svg 
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round" 
+                        class="lucide lucide-sandwich w-8 h-8">
+
+                          <path d="m2.37 11.223 8.372-6.777a2 2 0 0 1 2.516 0l8.371 6.777"></path>
+                          <path d="M21 15a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.25"></path>
+                          <path d="M3 15a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h9"></path>
+                          <path d="m6.67 15 6.13 4.6a2 2 0 0 0 2.8-.4l3.15-4.2"></path>
+                          <rect width="20" height="4" x="2" y="11" rx="1"></rect>
+                      </svg>
+                    </div>
+                    <h3 class="font-medium">Lanches</h3>
+                  </div>
+                </div>
+
+                  <div class="food-card hover:scale-105 transition-transform duration-300 cursor-pointer">
+                    <div class="bg-white rounded-lg shadow-md min-h-40 w-27 p-6 flex flex-col items-center text-center">
+                      <div class="w-16 h-16 rounded-full bg-blue-500/10 text-blue-500 flex items-center justify-center mb-4">
+                        <svg 
+                          xmlns="http://www.w3.org/2000/svg" 
+                          viewBox="0 0 24 24" 
+                          fill="none" 
+                          stroke="currentColor" 
+                          stroke-width="2" 
+                          stroke-linecap="round" 
+                          stroke-linejoin="round" 
+                          class="lucide lucide-cup-soda w-8 h-8">
+
+                            <path d="m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8"></path>
+                            <path d="M5 8h14"></path>
+                            <path d="M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0"></path>
+                            <path d="m12 8 1-6h2"></path>
+                        </svg>
+                      </div>
+                      <h3 class="font-medium">Bebidas</h3>
+                    </div>
+                  </div>
+
+                    <div class="food-card hover:scale-105 transition-transform duration-300 cursor-pointer">
+                      <div class="bg-white rounded-lg shadow-md min-h-40 w-27 p-6 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-full bg-yellow-500/10 text-yellow-500 flex items-center justify-center mb-4">
+                          <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24" 
+                            fill="none" 
+                            stroke="currentColor" 
+                            stroke-width="2" 
+                            stroke-linecap="round" 
+                            stroke-linejoin="round" 
+                            class="lucide lucide-cooking-pot w-8 h-8">
+
+                              <path d="M2 12h20"></path>
+                              <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"></path>
+                              <path d="m4 8 16-4"></path>
+                              <path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"></path>
+                          </svg>
+                        </div>
+                        <h3 class="font-medium">Brasileira</h3>
+                      </div>
+                    </div>
+
+                      <div class="food-card hover:scale-105 transition-transform duration-300 cursor-pointer">
+                        <div class="bg-white rounded-lg shadow-md min-h-40 w-27 p-6 flex flex-col items-center text-center">
+                          <div class="w-16 h-16 rounded-full bg-green-500/10 text-green-500 flex items-center justify-center mb-4">
+                            <svg 
+                              xmlns="http://www.w3.org/2000/svg"  
+                              viewBox="0 0 24 24" 
+                              fill="none" 
+                              stroke="currentColor" 
+                              stroke-width="2" 
+                              stroke-linecap="round" 
+                              stroke-linejoin="round" 
+                              class="lucide lucide-utensils w-8 h-8">
+
+                                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                                <path d="M7 2v20"></path>
+                                <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                            </svg>
+                          </div>
+                          <h3 class="font-medium">Saudável</h3>
+                        </div>
+                      </div>
+                </div>
+            </div>
+      </section>
+
+      <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center mb-8">
+            <h2 class="text-2xl font-bold">Restaurantes Populares</h2>
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-10 px-4 py-2 text-orange-500 hover:text-orange-500/80 hover:bg-orange-500/10"
+            >
+              Ver todos
+
+            </button>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] food-card h-full flex flex-col">
+              <div class="relative">
+                <img 
+                  src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" 
+                  alt="Pizza Expressa" 
+                  class="w-full h-40 object-cover">
+                <div class="absolute top-3 left-3">
+                  <div 
+                    class="inline-flex items-center rounded-full border text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-orange-600/80 bg-orange-500 text-white font-medium px-2.5 py-0.5"
+                    >
+                      Entrega Grátis
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="font-semibold text-lg mb-1">Pizza Expressa</h3>
+                <div class="flex items-center mb-2">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+
+                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                      </path>
+                  </svg>
+                  <span class="text-sm font-medium mr-2">4.8</span>
+                  <span class="text-xs text-gray-500">Pizzas • Italiana</span>
+                </div>
+
+                  <div class="flex items-center text-sm text-gray-500 mt-auto">
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-timer h-4 w-4 mr-1">
+                        <line x1="10" x2="14" y1="2" y2="2"></line>
+                        <line x1="12" x2="15" y1="14" y2="11"></line>
+                        <circle cx="12" cy="14" r="8"></circle>
+                    </svg>
+                    <span class="mr-3">25-35 min</span>
+
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-navigation h-4 w-4 mr-1">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    <span class="mr-3">1.2 km</span>
+                    <span class="ml-auto font-medium text-gray-700">R$ 5,00</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] food-card h-full flex flex-col">
+                <div class="relative">
+                  <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Burger House" class="w-full h-40 object-cover">
+                </div>
+                <div class="p-4 flex-1 flex flex-col">
+                  <h3 class="font-semibold text-lg mb-1">Burger House</h3>
+                  <div class="flex items-center mb-2">
+
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+                        <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                    </svg>
+                    <span class="text-sm font-medium mr-2">4.6</span>
+                    <span class="text-xs text-gray-500">Lanches • Hamburgueres</span>
+                  </div>
+                  
+                  <div class="flex items-center text-sm text-gray-500 mt-auto">
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24" fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-timer h-4 w-4 mr-1">
+                        <line x1="10" x2="14" y1="2" y2="2"></line>
+                        <line x1="12" x2="15" y1="14" y2="11"></line>
+                        <circle cx="12" cy="14" r="8"></circle>
+                    </svg>
+                    <span class="mr-3">30-45 min</span>
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round"
+                      stroke-linejoin="round" 
+                      class="lucide lucide-navigation h-4 w-4 mr-1">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    <span class="mr-3">2.5 km</span>
+                    <span class="ml-auto font-medium text-gray-700">R$ 6,00</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)]  food-card h-full flex flex-col">
+                <div class="relative">
+                  <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Sushi Japan" class="w-full h-40 object-cover">
+                  <div class="absolute top-3 left-3">
+                    <div class="inline-flex items-center rounded-full border text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-orange-600/80 bg-orange-500 text-white font-medium px-2.5 py-0.5"
+                    >
+                    20% OFF
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="font-semibold text-lg mb-1">Sushi Japan</h3>
+                <div class="flex items-center mb-2">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                  </svg>
+                  <span class="text-sm font-medium mr-2">4.9</span>
+                  <span class="text-xs text-gray-500">Japonesa • Sushi</span>
+                </div>
+
+                <div class="flex items-center text-sm text-gray-500 mt-auto">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-timer h-4 w-4 mr-1">
+                      <line x1="10" x2="14" y1="2" y2="2"></line>
+                      <line x1="12" x2="15" y1="14" y2="11"></line>
+                      <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  <span class="mr-3">40-50 min</span>
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-navigation h-4 w-4 mr-1">
+                      <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                  </svg><span class="mr-3">3.1 km</span>
+                  <span class="ml-auto font-medium text-gray-700">R$ 8,00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] food-card h-full flex flex-col">
+              <div class="relative">
+                <img src="https://images.unsplash.com/photo-1596104379119-22c793048ae2?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Açaí Brasil" class="w-full h-40 object-cover">
+              </div>
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="font-semibold text-lg mb-1">Açaí Brasil</h3>
+                <div class="flex items-center mb-2">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                  </svg>
+                  <span class="text-sm font-medium mr-2">4.7</span>
+                  <span class="text-xs text-gray-500">Açaí • Sobremesas</span>
+                </div>
+
+                <div class="flex items-center text-sm text-gray-500 mt-auto">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-timer h-4 w-4 mr-1">
+                      <line x1="10" x2="14" y1="2" y2="2"></line>
+                      <line x1="12" x2="15" y1="14" y2="11"></line>
+                      <circle cx="12" cy="14" r="8"></circle>
+                  </svg>
+                  <span class="mr-3">20-30 min</span>
+
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-navigation h-4 w-4 mr-1">
+                      <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                  </svg>
+                  <span class="mr-3">1.8 km</span>
+                  <span class="ml-auto font-medium text-gray-700">R$ 4,00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] food-card h-full flex flex-col">
+              <div class="relative">
+                <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Taco Mexicano" class="w-full h-40 object-cover">
+              </div>
+              <div class="p-4 flex-1 flex flex-col">
+                <h3 class="font-semibold text-lg mb-1">Taco Mexicano</h3>
+                <div class="flex items-center mb-2">
+                  
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+                      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                  </svg>
+                  <span class="text-sm font-medium mr-2">4.5</span>
+                  <span class="text-xs text-gray-500">Mexicana • Tacos</span>
+                </div>
+
+                <div class="flex items-center text-sm text-gray-500 mt-auto">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    stroke-width="2" 
+                    stroke-linecap="round" 
+                    stroke-linejoin="round" 
+                    class="lucide lucide-timer h-4 w-4 mr-1">
+                      <line x1="10" x2="14" y1="2" y2="2"></line>
+                      <line x1="12" x2="15" y1="14" y2="11"></line>
+                      <circle cx="12" cy="14" r="8"></circle>
+                    </svg>
+                    <span class="mr-3">35-45 min</span>
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-navigation h-4 w-4 mr-1">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                      </svg>
+                      <span class="mr-3">2.9 km</span>
+                      <span class="ml-auto font-medium text-gray-700">R$ 7,00</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transition-shadow duration-300 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] food-card h-full flex flex-col">
+                  <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=80" alt="Pasta Bella" class="w-full h-40 object-cover">
+                    <div class="absolute top-3 left-3"><div class="inline-flex items-center rounded-full border text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-orange-600/80 bg-orange-500 text-white font-medium px-2.5 py-0.5">Novidade</div>
+                  </div>
+                </div>
+                <div class="p-4 flex-1 flex flex-col">
+                  <h3 class="font-semibold text-lg mb-1">Pasta Bella</h3>
+                  <div class="flex items-center mb-2">
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400 mr-1">
+                        <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path>
+                    </svg>
+                    <span class="text-sm font-medium mr-2">4.7</span>
+                    <span class="text-xs text-gray-500">Italiana • Massas</span>
+                  </div>
+
+                  <div class="flex items-center text-sm text-gray-500 mt-auto">
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-timer h-4 w-4 mr-1">
+                        <line x1="10" x2="14" y1="2" y2="2"></line>
+                        <line x1="12" x2="15" y1="14" y2="11"></line>
+                        <circle cx="12" cy="14" r="8"></circle>
+                    </svg><span class="mr-3">35-50 min</span>
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="currentColor" 
+                      stroke-width="2" 
+                      stroke-linecap="round" 
+                      stroke-linejoin="round" 
+                      class="lucide lucide-navigation h-4 w-4 mr-1">
+                        <polygon points="3 11 22 2 13 21 11 13 3 11"></polygon>
+                    </svg>
+                    <span class="mr-3">2.3 km</span>
+                    <span class="ml-auto font-medium text-gray-700">R$ 6,50</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       <section class="py-12 overflow-hidden">
         <div class="container mx-auto px-4">
           <div
